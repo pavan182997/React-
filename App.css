@@ -1,0 +1,108 @@
+body
+{
+  background-image: url(./nature.jpeg);
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.header {
+  width: 340px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 470px;
+  justify-content:space-evenly;
+}
+
+.register-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.register-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+/* .social-button i {
+  margin-right: 10px;
+} */
+
+.social-button.twitter {
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 100%;
+}
+
+.social-button.google {
+  background-color: #db4437;
+  color: white;
+  border-radius: 100%;
+}
+
+.social-button.facebook {
+  background-color: #3b5998;
+  color: white;
+  border-radius: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #e64a19;
+}
+
+.register-form a {
+  text-decoration: none;
+}
